@@ -9,9 +9,3 @@ describe('app.ts test', () => {
     expect(response.body).toHaveProperty('msg', 'Hello World!')
   })
 })
-
-describe('sanity check', () => {
-  test('workflows test', () => {
-    expect(1).toBe(1)
-  })
-})
