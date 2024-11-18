@@ -1,4 +1,4 @@
-import { app } from '../src/app'
+import { app } from '../src/config/app'
 import request from 'supertest'
 
 describe('app.ts test', () => {
